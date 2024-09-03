@@ -1,6 +1,9 @@
 
 body {
-    background-color: #222;
+    background-color: #524d4d38;
+    width: auto;
+    height: auto;
+    padding: 0;
 }
 
 nav {
@@ -49,7 +52,8 @@ nav {
 }
 
 .nav-links a:hover {
-    background-color: #39ffde;
+    color: #39ffde;
+    cursor: pointer;
 }
 
 .nav-links .nav-cta-btn {
@@ -60,7 +64,8 @@ nav {
 }
 
 .nav-links .nav-cta-btn:hover {
-    background-color: #39ffde;
+    color: #39ffde;
+    cursor: pointer;
 }
 
 .hamburger-nav {
@@ -75,6 +80,106 @@ nav {
     background-color: #111;
     margin: 3px;
 }
+
+.nav-line{
+    background-color: #39ffde;
+    padding: 2px 0px 0px 0px;
+
+}
+
+/**   MAIN  */
+
+#welcomeMessage{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#welcomeMessage h2{
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+#welcomeMessage h3{
+    padding-top: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#card1{
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+#card1 img{
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px rgb(231 231 231);
+}
+
+#card1 h4{
+    letter-spacing: 2px;
+    padding-left: 300px;
+    top: 275px;
+    position: absolute;
+    font-style: italic;
+}
+
+#card1 p{
+    padding: 20px;
+    padding-left: 300px;
+    top: 300px;
+    position: absolute;
+}
+
+#card2{
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+#card2 img{
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px rgb(231 231 231);
+}
+
+#card2 h4{
+    letter-spacing: 2px;
+    padding-left: 300px;
+    top: 575px;
+    position: absolute;
+    font-style: italic;
+}
+
+#card2 p{
+    padding: 20px;
+    padding-left: 300px;
+    top: 600px;
+    position: absolute;
+}
+
+#card2 #card2P2{
+    padding-top: 120px;
+}
+
+#foot{
+    margin-top: 10%;
+    background-color: white;
+    height: 60px;
+    width: auto;
+    top: 0;
+    position: sticky;
+}
+#foot p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#foot p:hover{
+    color: #39ffde;
+}
+
 
 /* Responsive Design */
 
@@ -109,7 +214,7 @@ nav {
     }
 
     .nav-links a:hover {
-        background-color: #39ffde;
+        color: #39ffde;
     }
 
     .nav-links .nav-cta-btn {
@@ -121,6 +226,6 @@ nav {
     }
 
     .nav-links .nav-cta-btn:hover {
-        background-color: #39ffde;
+        color: #39ffde;
     }
 }
